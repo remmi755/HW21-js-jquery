@@ -8,6 +8,8 @@ $('h2').not('.test').css('color', 'red')
 $(':header').not('.test').css('color', 'red')
 $(':header').nextAll(':header').css('color', 'red')
 $(':header.test').nextAll(':header.test').css('color', 'red')
+$(':header').nextAll(':header').css('color', 'red')
+
 
 
 
